@@ -1,0 +1,72 @@
+/*O(n^2) approach 
+STEP ONE: Take the value present and the ith index and subtract it from the target, save it in smallAns variable
+STEP TWO: Traverse over the array and subtract every element except the one on the ith index from smallAns
+STEP THREE: If the answer is zero, break out from the loop and return your answer
+
+NOTE1: If you are thinking you are going to create the inner loop which runs on the condition j!=i, there could be a problem with that, you will be repeating pairs. In order to avoid that, the inner loop should run from (i+1)th index.
+NOTE2: Often people make the mistake of returning the pair in the array instead of the indices. Read the question carefully.
+*/
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+          
+          vector<int> solutionArray;
+          int smallTarget = target;
+          
+          for(int i=0; i<nums.size(); i++){
+             smallTarget = smallTarget - nums[i];
+             for(int j=i+1; j<nums.size(); j++){
+                if(smallTarget-nums[j] == 0){
+                   solutionArray.push_back(i);
+                   solutionArray.push_back(j);
+                   break;
+                }
+             }
+             smallTarget = target;
+          }
+          
+          return solutionArray;
+    }
+};
+
+
+/*O(n) approach 
+TWO POINTER METHOD
+Lets's say you have a pointer which is pointing to the first index of the array and another which is pointing to the last index of the array. 
+Let they be called start and end. 
+Now you have to check if nums[start]+nums[end] = target, if yes, return the indices, else:
+if nums[start]+nums[end] < target, increase start
+if nums[start]+nums[end] > target, decrease end
+continue this loop till start < end.
+*/
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+    
+           if(nums.size()==0||nums.size()==1){
+              return nums;
+          }
+          
+          int start = 0;
+          int end = nums.size() - 1;
+          vector<int> solutionArray;
+          
+          while(start<end){
+             if(nums[start]+nums[end] == target){
+               solutionArray.push_back(start);
+               solutionArray.push_back(end);
+               break;
+             }
+             else if(nums[start]+nums[end] < target){
+                start++;
+             }
+             else if(nums[start]+nums[end] > target){
+                 end--;
+             }
+          }
+          
+          return solutionArray;
+        }
+};
