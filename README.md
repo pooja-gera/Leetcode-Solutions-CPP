@@ -32,5 +32,6 @@
 - [00485 - Max Consecutive Ones](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00485-MaxConsecutiveOnes.cpp)
 - [00876 - Middle of the Linked List](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00876-MiddleOfTheLinkedList.cpp)
 - 1108
-- [01480 - Running Sum of 1D Array](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/01480-RunningSumOf1DArray.cpp)
 - [01295 - Find Numbers with Even Number of Digits](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/01295-FindNumbersWithEvenNumberOfDigits.cpp)
+- 1431
+- [01480 - Running Sum of 1D Array](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/01480-RunningSumOf1DArray.cpp)
