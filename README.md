@@ -31,8 +31,9 @@
 - [00268 - Missing Number](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00268-MissingNumber.cpp)
 - [00485 - Max Consecutive Ones](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00485-MaxConsecutiveOnes.cpp)
 - [00876 - Middle of the Linked List](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00876-MiddleOfTheLinkedList.cpp)
-- 1108
+- [01108 - Defanging an IP Address](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/01108-DefangingAnIPAddress.cpp)
 - [01295 - Find Numbers with Even Number of Digits](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/01295-FindNumbersWithEvenNumberOfDigits.cpp)
-- 1431
+- [01431 - Kids With Greatest Number of Candies](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/01431-KidsWithGreatestNumberOfCandies.cpp)
+- [1470 - Shuffle The Array](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/01470-ShuffleTheArray.cpp)
 - [01480 - Running Sum of 1D Array](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/01480-RunningSumOf1DArray.cpp)
-- 1672
+- [1672 - Richest Customer Wealth](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/01672-RichestCustomerWealth.cpp)
