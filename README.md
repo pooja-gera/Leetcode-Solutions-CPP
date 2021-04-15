@@ -16,7 +16,7 @@
 <td>
 
 ## Number of Problems Solved:
-<img src="https://media.giphy.com/media/26gsjCWitFy3euTeM/giphy.gif" alt="seven" height="150"/>
+<img src="https://www.worldnumerology.com/images/14.png" alt="fourteen" height="150"/>
 </td>
 </tr>
 </table>
