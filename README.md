@@ -13,21 +13,26 @@
 
 </td>
 
+<!--
 <td>
-
 ## Number of Problems Solved:
 <img src="https://www.worldnumerology.com/images/14.png" alt="fourteen" height="150"/>
 </td>
+-->
+
 </tr>
 </table>
-
+  
 ## List of Problems (Sorted According to Problem Number): 
 
 - [00001 - Two Sum](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00001-TwoSum)
+- [00020 - Valid Parantheses](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00020-ValidParantheses.cpp)
 - [00075 - Sort Colors](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00075-SortColors.cpp)
 - [00053 - Maximum Subarray](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00053-MaximumSubarray.cpp)
 - [00169 - Majority Element](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00169-MajorityElement.cpp)
+- [00217 - Contains Duplicate](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00217-ContainsDuplicate.cpp) 
 - [00238 - Product of Array Except Self](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00238-ProductOfArrayExceptSelf.cpp)
+- [00242 - Valid Anagram](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00242-ValidAnagram.cpp)
 - [00268 - Missing Number](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00268-MissingNumber.cpp)
 - [00485 - Max Consecutive Ones](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00485-MaxConsecutiveOnes.cpp)
 - [00771 - Jewels and Stones](https://github.com/pooja-gera/Leetcode-Solutions-CPP/blob/main/00771-JewelsAndStones.cpp)
